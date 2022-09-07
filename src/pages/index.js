@@ -6,7 +6,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const BlogIndex = ({
+const HomeIndex = ({
   data,
   pageContext: { nextPagePath, previousPagePath },
 }) => {
@@ -68,7 +68,7 @@ const BlogIndex = ({
   )
 }
 
-export default BlogIndex
+export default HomeIndex
 
 export const pageQuery = graphql`
   query WordPressPostArchiveHome($offset: Int!, $postsPerPage: Int!) {

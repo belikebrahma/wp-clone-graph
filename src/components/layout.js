@@ -27,7 +27,7 @@ const Layout = ({ isHomePage, children }) => {
           </h1>
         ) : (
           <Link className="header-link-home" to="/">
-            {title}
+            {title}!
           </Link>
         )}
       </header>
@@ -39,7 +39,7 @@ const Layout = ({ isHomePage, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
         {` `}
-        And <a href="https://wordpress.org/">React</a>
+        And <a href="https://wordpress.org/">WordPress</a>
       </footer>
     </div>
   )
