@@ -39,7 +39,7 @@ const Layout = ({ isHomePage, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
         {` `}
-        And <a href="https://wordpress.org/">WordPress</a>
+        And <a href="https://wordpress.org/">React</a>
       </footer>
     </div>
   )
