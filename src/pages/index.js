@@ -4,4 +4,11 @@ import parse from "html-react-parser"
 
 
 
-return <div>Hello World;</div>
+function App() {
+    return (
+       <div className="App">
+          Namastey Brahma !
+       </div>
+    );
+ }
+ export default App;
